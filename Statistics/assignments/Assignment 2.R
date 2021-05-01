@@ -40,6 +40,7 @@ library(ggplot2)
 hist(Dataset_2_1$THC)
 hist(Dataset_2_1$CO)
 hist(Dataset_2_1$CO2)
+ggplot(Dataset_2_1,aes(x=THC))+geom_histogram()
 
 ###Question 7###
 install.packages("tidyverse")
